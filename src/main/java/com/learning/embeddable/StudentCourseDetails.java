@@ -1,21 +1,23 @@
-package com.learning;
+package com.learning.embeddable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Student {
+public class StudentCourseDetails {
 	@Id
     private int id;
     private String name;
     private String city;
-	public Student(int id, String name, String city) {
+    private Certificate certi;
+    
+	public StudentCourseDetails(int id, String name, String city) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.city = city;
 	}
-	public Student() {
+	public StudentCourseDetails() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -40,6 +42,12 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", city=" + city + "]";
+	}
+	public Certificate getCerti() {
+		return certi;
+	}
+	public void setCerti(Certificate certi) {
+		this.certi = certi;
 	}
     
 }

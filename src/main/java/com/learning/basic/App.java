@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.basic;
 
 import java.io.FileInputStream;
 import java.io.IOException;
