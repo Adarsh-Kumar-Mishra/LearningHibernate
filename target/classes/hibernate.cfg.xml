@@ -16,6 +16,9 @@
   <mapping class="com.learning.basic.Student" />
   <mapping class ="com.learning.basic.Address"/>
   <mapping class = "com.learning.embeddable.StudentCourseDetails"/>
- </session-factory>
+  
+  <mapping class = "com.learning.mapping.manytoone.Answer" />
+  <mapping class = "com.learning.mapping.manytoone.Question" />
+  </session-factory>
     
  </hibernate-configuration>  
