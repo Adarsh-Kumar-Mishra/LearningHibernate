@@ -55,7 +55,8 @@ public class App
 }
 
 
-
+//<mapping class="com.learning.basic.Student" />
+//<mapping class ="com.learning.basic.Address"/>
 
 
 

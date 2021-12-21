@@ -79,3 +79,6 @@ public class MapApp {
 //<mapping class = "com.learning.mapping.onetoone.Answer" />
 //<mapping class = "com.learning.mapping.onetoone.Question" />
 
+//<mapping class = "com.learning.mapping.manytoone.Answer" />
+//<mapping class = "com.learning.mapping.manytoone.Question" />
+

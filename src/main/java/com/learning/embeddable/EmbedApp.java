@@ -34,3 +34,6 @@ public class EmbedApp {
 	}
 
 }
+
+
+//<mapping class = "com.learning.embeddable.StudentCourseDetails"/>

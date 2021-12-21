@@ -13,12 +13,11 @@
   <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
   <property name="hbm2ddl.auto">create</property>
   <property name="show_sql">true</property>
-  <mapping class="com.learning.basic.Student" />
-  <mapping class ="com.learning.basic.Address"/>
-  <mapping class = "com.learning.embeddable.StudentCourseDetails"/>
   
-  <mapping class = "com.learning.mapping.manytoone.Answer" />
-  <mapping class = "com.learning.mapping.manytoone.Question" />
+  
+  
+  <mapping class ="com.learning.mapping.manytomany.Emp" />
+  <mapping class ="com.learning.mapping.manytomany.Project" />
   </session-factory>
     
  </hibernate-configuration>  
